@@ -1,0 +1,101 @@
+/* PC RESPONSIVE */
+@media (min-width: 64em) {
+}
+
+/* TABLET & MOBILE RESPONSIVE */
+@media (max-width: 63.9375em) {
+  .btn {
+    padding: 17px 16px;
+  }
+
+  .contact-form .form-control {
+    padding: 14px;
+  }
+
+  .contact-info {
+    line-height: 2;
+  }
+
+  #footer .social-list {
+    font-size: 36px;
+  }
+
+  #footer .social-list a {
+    margin: 0 8px;
+  }
+
+  #footer .copy-right a {
+    padding: 12px 0;
+    display: inline-block;
+  }
+}
+
+/* TABLET RESPONSIVE */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 46.1875em) {
+  .s-full-width,
+  .S-col-full {
+    width: 100% !important;
+  }
+
+  .s-mt-8 {
+    margin-top: 8px !important;
+  }
+
+  #header {
+    overflow: hidden;
+  }
+
+  #header .menu-mobile-btn {
+    display: block;
+  }
+
+  #header .search-btn {
+    display: none;
+  }
+
+  #slider .text-content {
+    display: none;
+  }
+
+  #nav {
+    display: block; /* để cho cái nav dãn full chiều ngang dòng đúng với quy định */
+  }
+
+  #nav > li {
+    display: block; /* để cho cái nav dãn full chiều ngang dòng đúng với quy định và nó sẽ thành từng khối => tất cả đều xuống hàng */
+  }
+
+  #nav > li:first-child {
+    display: inline-block; /* để cho cái li HOME về kích cỡ inline-block, không full dòng ngang */
+  }
+
+  #nav li a {
+    padding: 1px 24px;
+  }
+
+  #nav .subnav {
+    position: initial; /* để cho cái subnav được hiển thị mặc định bình thường   */
+    background-color: #333;
+  }
+
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 41px;
+  }
+
+  #content .member-item {
+    width: 50%;
+  }
+
+  #content .member-img {
+    width: 95%;
+  }
+
+  .contact-form {
+    margin-top: 32px;
+  }
+}
